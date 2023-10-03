@@ -269,6 +269,15 @@ form button {
   main {
     flex-direction: column;
   }
+  section:nth-child(1) {
+    padding: 24px 48px;
+    width: 100%;
+  }
+
+  section:nth-child(2) {
+    padding: 24px 48px;
+    width: 100%;
+  }
 }
 
 /* tablet max 768 */
