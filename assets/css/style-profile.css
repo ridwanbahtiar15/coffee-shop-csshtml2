@@ -261,40 +261,38 @@ footer {
 }
 
 .about p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
   color: #4f5665;
   line-height: 30px;
 }
 
 .about .copyright {
   font-family: "Rubik";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
   color: #afb5c0;
 }
 
-.list-products p:nth-child(1) {
+.list-product p:nth-child(1),
+.list-engage p:nth-child(1),
+.social-media p {
   font-size: 18px;
   font-weight: 500;
   color: #0b132a;
 }
 
-.list-engage p:nth-child(1) {
-  font-size: 18px;
-  font-weight: 500;
-  color: #0b132a;
-}
-
-.list-products p,
+.list-product p,
 .list-engage p {
+  font-size: 16px;
+  font-weight: 400;
   color: #4f5665;
 }
 
 .social-media {
   width: 30%;
-}
-
-.social-media p {
-  font-size: 18px;
-  font-weight: 500;
-  color: #0b132a;
 }
 
 .icon-social-media {
@@ -348,11 +346,11 @@ footer {
 
   .list-product,
   .list-engage {
-    width: 20%;
+    width: 30%;
   }
 
   .social-media {
-    width: 20%;
+    width: 30%;
   }
 }
 
@@ -398,6 +396,11 @@ footer {
 /* mobile l max 425 */
 
 @media only screen and (max-width: 425px) {
+  section:nth-child(1),
+  section:nth-child(2) {
+    padding: 17px 10px;
+  }
+
   .about {
     width: 100%;
   }
@@ -410,8 +413,7 @@ footer {
     width: 50%;
   }
 
-  section:nth-child(1),
-  section:nth-child(2) {
-    padding: 17px 10px;
+  .social-media {
+    width: 100%;
   }
 }
