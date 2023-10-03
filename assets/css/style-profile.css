@@ -269,17 +269,9 @@ form button {
   main {
     flex-direction: column;
   }
-
-  section:nth-child(1) {
-    width: 100%;
-  }
-
-  section:nth-child(2) {
-    width: 100%;
-  }
 }
 
-/* mobile l max 768 */
+/* tablet max 768 */
 @media only screen and (max-width: 768px) {
   nav {
     padding: 0 21px;
@@ -295,5 +287,27 @@ form button {
 
   main {
     padding: 0 21px;
+  }
+
+  section:nth-child(1) {
+    padding: 24px 48px;
+    width: 100%;
+  }
+
+  section:nth-child(2) {
+    padding: 24px 48px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  section:nth-child(1) {
+    padding: 24px 24px;
+    width: 100%;
+  }
+
+  section:nth-child(2) {
+    padding: 24px 24px;
+    width: 100%;
   }
 }
