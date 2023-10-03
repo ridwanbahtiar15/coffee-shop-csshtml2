@@ -258,7 +258,7 @@ form button {
     display: none;
   }
 
-  .icon-burger-menu {
+  .nav-end a:nth-child(5) {
     display: block;
   }
 
