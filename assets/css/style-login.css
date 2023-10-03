@@ -170,6 +170,7 @@ main .account span span {
   gap: 1rem;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 .facebook-account span,
