@@ -339,6 +339,7 @@ footer {
 
   footer {
     flex-wrap: wrap;
+    /* justify-content: space-between; */
   }
 
   .about {
@@ -347,11 +348,11 @@ footer {
 
   .list-product,
   .list-engage {
-    width: 30%;
+    width: 20%;
   }
 
   .social-media {
-    width: 40%;
+    width: 20%;
   }
 }
 
@@ -374,6 +375,23 @@ footer {
   section:nth-child(1),
   section:nth-child(2) {
     padding: 24px 48px;
+  }
+
+  footer {
+    justify-content: start;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .list-product,
+  .list-engage {
+    width: 30%;
+  }
+
+  .social-media {
+    width: 40%;
   }
 }
 
