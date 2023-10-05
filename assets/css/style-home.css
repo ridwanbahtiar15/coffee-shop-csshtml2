@@ -328,6 +328,7 @@ main .product .item-product .card .product-button {
 main .product .item-product .card .product-button a:nth-child(1) {
   width: 70%;
   padding: 12px 1rem;
+  box-sizing: border-box;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
@@ -340,21 +341,42 @@ main .product .item-product .card .product-button a:nth-child(1) {
 }
 
 main .product .item-product .card .product-button a:nth-child(2) {
-  padding: 6px 24px;
+  width: 30%;
+  padding: 6px 16px;
+  box-sizing: border-box;
   border: 1px solid #ff8906;
   border-radius: 6px;
+  display: flex;
+  justify-content: center;
 }
 
 section {
+  width: 100%;
   margin: 0;
   padding: 0;
+  background: rgba(232, 232, 232, 0.3);
+}
+
+section .title .main-title {
+  padding: 50px 100px 20px 100px;
+}
+
+section .title .sub-title {
+  padding: 0 100px;
+}
+
+section img {
+  padding: 0 100px 50px 100px;
 }
 
 /* tablet max 1024 */
 @media only screen and (max-width: 1024px) {
-  nav,
+  nav {
+    padding: 0 100px;
+  }
+
   main {
-    padding: 0 80px;
+    padding: 0;
   }
 
   .nav-start a:nth-child(2),
@@ -409,26 +431,37 @@ section {
   main .product .item-product {
     width: 40%;
   }
-}
 
-.item-section {
-  width: 100%;
-  height: 100vh;
-  background-image: none;
-  background-color: rgba(232, 232, 232, 0.3);
-  /* z-index: 99; */
-  /* padding: 0; */
+  section .title .main-title {
+    padding: 50px 100px 20px 100px;
+  }
+
+  section .title .sub-title {
+    padding: 0 50px;
+  }
 }
 
 /* tablet max 768p*/
 @media only screen and (max-width: 768px) {
   nav,
   main {
-    padding: 0 50px;
+    padding: 0 80px;
   }
 
   main .product .item-product {
     width: 100%;
+  }
+
+  section .title .main-title {
+    padding: 50px 80px 20px 80px;
+  }
+
+  section .title .sub-title {
+    padding: 0 80px;
+  }
+
+  section img {
+    padding: 0 80px 50px 80px;
   }
 }
 
@@ -490,11 +523,8 @@ section {
     padding-bottom: 9px;
   }
 
-  main .title .main-title span {
-    color: #8e6447;
-  }
-
-  main .title .hr-bottom {
+  main .title .hr-bottom,
+  section .title .hr-bottom {
     width: 78px;
     height: 4px;
     margin-bottom: 9px;
@@ -516,5 +546,21 @@ section {
   main .product .item-product .card .price {
     font-size: 18px;
     font-weight: 500;
+  }
+
+  section .title .main-title {
+    font-size: 24px;
+    padding-bottom: 9px;
+    padding: 50px 20px 20px 20px;
+  }
+
+  section .title .sub-title {
+    font-size: 14px;
+    margin-bottom: 16px;
+    padding: 20px;
+  }
+
+  section img {
+    padding: 20px 20px 50px 20px;
   }
 }
