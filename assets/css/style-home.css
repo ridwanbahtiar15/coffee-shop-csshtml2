@@ -570,6 +570,7 @@ footer {
 
   footer {
     flex-wrap: wrap;
+    padding: 100px;
   }
 
   .about {
@@ -583,10 +584,6 @@ footer {
 
   .social-media {
     width: 30%;
-  }
-
-  footer {
-    padding: 100px;
   }
 }
 

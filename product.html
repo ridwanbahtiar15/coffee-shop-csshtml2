@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Product" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style-product.css" />
+    <title>Product</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-start">
+        <a href="#">
+          <img
+            src="assets/img/coffee-shop-logo1.webp"
+            alt="logo"
+            class="logo"
+          />
+        </a>
+        <a href="#">Home</a>
+        <a href="#" class="active">Product</a>
+      </div>
+      <div class="nav-end">
+        <a href="#">
+          <img src="assets/img/Search.webp" alt="Search" class="icon-search" />
+        </a>
+        <a href="#">
+          <img
+            src="assets/img/ShoppingCart.webp"
+            alt="ShoppingCart"
+            class="icon-cart"
+          />
+        </a>
+        <a href="#">Sign In</a>
+        <a href="#">Sign Up</a>
+        <a href="#"
+          ><img
+            src="assets/img/burger-menu.webp"
+            alt="burger-menu"
+            class="icon-burger-menu"
+        /></a>
+      </div>
+    </nav>
+    <header>
+      <span>We Provide Good Coffee and Healthy Meals</span>
+    </header>
+    <section>
+      <div class="section-top">
+        <span class="title">Today <span>Promo</span></span>
+        <div class="arrow">
+          <img
+            src="assets/img/arrow-left.webp"
+            alt="arrow-left"
+            id="arrow-left"
+          />
+          <img
+            src="assets/img/arrow-right.webp"
+            alt="arrow-right"
+            id="arrow-right"
+          />
+        </div>
+      </div>
+      <div class="section-center">
+        <div class="promo-card">
+          <img src="assets/img/promo-card1.webp" alt="" />
+          <img src="assets/img/promo-card1.webp" alt="" />
+          <img src="assets/img/promo-card1.webp" alt="" />
+          <img src="assets/img/promo-card2.webp" alt="" />
+          <img src="assets/img/promo-card2.webp" alt="" />
+          <img src="assets/img/promo-card1.webp" alt="" />
+        </div>
+      </div>
+      <div class="section-bottom">
+        <img src="assets/img/paginate.webp" alt="scroll-paginate" />
+      </div>
+    </section>
+    <section>
+      <span class="title-product">Our <span>Product</span></span>
+    </section>
+    <main>
+      <aside>
+        <div class="filter">
+          <span>Filter</span>
+          <span>Reset Filter</span>
+        </div>
+        <div class="search">
+          <span>Search</span>
+          <input type="text" placeholder="Search Your Product" />
+        </div>
+        <div class="category">
+          <span>Category</span>
+          <div class="checkbox">
+            <div class="favorite-product">
+              <input type="checkbox" id="favorite-product" checked />
+              <label for="favorite-product">Favorite Product</label>
+            </div>
+            <div class="coffee">
+              <input type="checkbox" id="coffee" />
+              <label for="coffee">Coffee</label>
+            </div>
+            <div class="non-coffee">
+              <input type="checkbox" id="non-coffee" />
+              <label for="non-coffee">Non Coffee</label>
+            </div>
+            <div class="foods">
+              <input type="checkbox" id="foods" />
+              <label for="foods">Foods</label>
+            </div>
+            <div class="add-on">
+              <input type="checkbox" id="add-on" />
+              <label for="add-on">Add-On</label>
+            </div>
+          </div>
+        </div>
+        <div class="sort-by">
+          <span>Sort By</span>
+          <div class="checkbox">
+            <div class="buy-one-get-one">
+              <input type="checkbox" id="buy-one-get-oneproduct" />
+              <label for="buy-one-get-one">Buy 1 get 1</label>
+            </div>
+            <div class="flashsale">
+              <input type="checkbox" id="flashsale" checked />
+              <label for="flashsale">Flash sale</label>
+            </div>
+            <div class="birthday-package">
+              <input type="checkbox" id="birthday-package" />
+              <label for="birthday-package">Birthday Package</label>
+            </div>
+            <div class="cheap">
+              <input type="checkbox" id="cheap" />
+              <label for="cheap">Cheap</label>
+            </div>
+          </div>
+        </div>
+        <div class="range-price">
+          <span>Range Price</span>
+          <input
+            type="range"
+            id="range"
+            name="range"
+            min="0"
+            max="100"
+            value="90"
+            step="10"
+          />
+        </div>
+        <div class="button-apply"><button>Apply Filter</button></div>
+      </aside>
+      <section>
+        <div class="main-product">
+          <div class="item-product">
+            <img
+              src="assets/img/image30.webp"
+              alt="product"
+              class="img-product"
+            />
+            <div class="card">
+              <span class="product-name">Hazelnut Latte</span>
+              <p class="product-info">
+                You can explore the menu that we provide with fun and have their
+                own taste and make your day better.
+              </p>
+              <p class="price">IDR 20.000</p>
+              <div class="product-button">
+                <a href="#" class="buy">Buy</a>
+                <a href="#" class="cart"
+                  ><img src="assets/img/ShoppingCartOrange.webp" alt="cart"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="item-product">
+            <img
+              src="assets/img/image31.webp"
+              alt="product"
+              class="img-product"
+            />
+            <div class="card">
+              <span class="product-name">Hazelnut Latte</span>
+              <p class="product-info">
+                You can explore the menu that we provide with fun and have their
+                own taste and make your day better.
+              </p>
+              <p class="price">IDR 20.000</p>
+              <div class="product-button">
+                <a href="#" class="buy">Buy</a>
+                <a href="#" class="cart"
+                  ><img src="assets/img/ShoppingCartOrange.webp" alt="cart"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="item-product">
+            <img
+              src="assets/img/image30.webp"
+              alt="product"
+              class="img-product"
+            />
+            <div class="card">
+              <span class="product-name">Hazelnut Latte</span>
+              <p class="product-info">
+                You can explore the menu that we provide with fun and have their
+                own taste and make your day better.
+              </p>
+              <p class="price">IDR 20.000</p>
+              <div class="product-button">
+                <a href="#" class="buy">Buy</a>
+                <a href="#" class="cart"
+                  ><img src="assets/img/ShoppingCartOrange.webp" alt="cart"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="item-product">
+            <img
+              src="assets/img/image31.webp"
+              alt="product"
+              class="img-product"
+            />
+            <div class="card">
+              <span class="product-name">Hazelnut Latte</span>
+              <p class="product-info">
+                You can explore the menu that we provide with fun and have their
+                own taste and make your day better.
+              </p>
+              <p class="price">IDR 20.000</p>
+              <div class="product-button">
+                <a href="#" class="buy">Buy</a>
+                <a href="#" class="cart"
+                  ><img src="assets/img/ShoppingCartOrange.webp" alt="cart"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="item-product">
+            <img
+              src="assets/img/image30.webp"
+              alt="product"
+              class="img-product"
+            />
+            <div class="card">
+              <span class="product-name">Hazelnut Latte</span>
+              <p class="product-info">
+                You can explore the menu that we provide with fun and have their
+                own taste and make your day better.
+              </p>
+              <p class="price">IDR 20.000</p>
+              <div class="product-button">
+                <a href="#" class="buy">Buy</a>
+                <a href="#" class="cart"
+                  ><img src="assets/img/ShoppingCartOrange.webp" alt="cart"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="item-product">
+            <img
+              src="assets/img/image31.webp"
+              alt="product"
+              class="img-product"
+            />
+            <div class="card">
+              <span class="product-name">Hazelnut Latte</span>
+              <p class="product-info">
+                You can explore the menu that we provide with fun and have their
+                own taste and make your day better.
+              </p>
+              <p class="price">IDR 20.000</p>
+              <div class="product-button">
+                <a href="#" class="buy">Buy</a>
+                <a href="#" class="cart"
+                  ><img src="assets/img/ShoppingCartOrange.webp" alt="cart"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="paginate-number">
+          <img
+            src="assets/img/paginate-number.webp"
+            alt="paginate-number.webp"
+          />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="about">
+        <img src="assets/img/coffee-shop.webp" alt="logo" class="logo" />
+        <span>
+          Coffee Shop is a store that sells some good meals, and especially
+          coffee. We provide high quality beans
+        </span>
+        <span class="copyright">&copy;2020CoffeeStore</span>
+      </div>
+      <div class="list-product">
+        <p>Product</p>
+        <p>Our Product</p>
+        <p>Pricing</p>
+        <p>Locations</p>
+        <p>Countries</p>
+        <p>BLog</p>
+      </div>
+      <div class="list-engage">
+        <p>Engage</p>
+        <p>Partner</p>
+        <p>FAQ</p>
+        <p>About Us</p>
+        <p>Provice Policy</p>
+        <p>Term of Services</p>
+      </div>
+      <div class="social-media">
+        <p>Social Media</p>
+        <div class="icon-social-media">
+          <img src="assets/img/Facebook.webp" alt="facebook" />
+          <img src="assets/img/Twitter.webp" alt="twitter" />
+          <img src="assets/img/Instagram.webp" alt="instagram" />
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    let scrollCard = document.querySelector(".promo-card");
+    let arrowLeft = document.getElementById("arrow-left");
+    let arrowRight = document.getElementById("arrow-right");
+
+    scrollCard.addEventListener("wheel", (evt) => {
+      evt.preventDefault();
+      scrollCard.scrollLeft += evt.deltaY;
+    });
+
+    arrowRight.addEventListener("click", () => {
+      scrollCard.style.scrollBehavior = "smooth";
+      scrollCard.scrollLeft += 900;
+    });
+
+    arrowLeft.addEventListener("click", () => {
+      scrollCard.style.scrollBehavior = "smooth";
+      scrollCard.scrollLeft -= 900;
+    });
+  </script>
+</html>
