@@ -10,28 +10,28 @@ A project coffe shop, build with using HTML 5 Semantic, CSS Vanilla and Responsi
 
 https://coffee-shop-csshtml2.netlify.app/login
 
-(./assets/img/page/login.png)
+![Login](./assets/img/page/login.png)
 
 ### Register Page
 
 https://coffee-shop-csshtml2.netlify.app/register
 
-(./assets/img/page/register.png)
+![Register](./assets/img/page/register.png)
 
 ## Profile Page
 
 https://coffee-shop-csshtml2.netlify.app/profile
 
-(./assets/img/page/profile.png)
+![Profile](./assets/img/page/profile.png)
 
 ## Home Page
 
 https://coffee-shop-csshtml2.netlify.app/home
 
-(./assets/img/page/home.png)
+![Home](./assets/img/page/home.png)
 
 ## Product Page
 
 https://coffee-shop-csshtml2.netlify.app/product
 
-(./assets/img/page/product.png)
+![Product](./assets/img/page/product.png)
