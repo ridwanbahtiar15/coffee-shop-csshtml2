@@ -226,11 +226,6 @@ header {
   gap: 10px;
 }
 
-.item-section:nth-child(3) article .check .check-item img {
-  /* width: 100%;
-  height: 100%; */
-}
-
 .item-section:nth-child(4) {
   background-image: url("../img/Rectangle291.webp");
 }
@@ -316,7 +311,7 @@ main .product .item-product .card .product-info {
 main .product .item-product .card .price {
   font-size: 22px;
   font-weight: 500;
-  color: #ff8906;
+  color: #0b132a;
 }
 
 main .product .item-product .card .product-button {
@@ -588,6 +583,10 @@ footer {
 
   .social-media {
     width: 30%;
+  }
+
+  footer {
+    padding: 100px;
   }
 }
 
